@@ -1,15 +1,66 @@
 # Security Policy
 
-## Reporting Vulnerabilities
+## ⚠️ Critical Warnings
 
-Do not open public issues for security vulnerabilities.
+This repository may handle sensitive data and perform automated operations.
 
-Use GitHub private vulnerability reporting on this repository, or contact the maintainer directly through GitHub.
+**All users and developers MUST read and understand this document.**
 
-## Supported Versions
+---
 
-Only the latest released version is supported with security updates.
+## Developer Responsibilities
 
-## Scope
+### 1. Authentication & Authorization
+- Implement proper authentication
+- Enforce authorization checks
+- Use principle of least privilege
+- Rotate credentials regularly
 
-`computer-use-linux` can observe and mutate the local Linux desktop through MCP, AT-SPI, portals, compositor APIs, and `ydotoold`. Security reports about unintended desktop access, tool annotation drift, unsafe defaults, packaging integrity, or release asset verification are in scope.
+### 2. Data Protection
+- Encrypt sensitive data
+- Use secure transmission
+- Respect privacy regulations
+
+### 3. Input Validation
+- Validate all inputs
+- Sanitize user inputs
+- Prevent injection attacks
+
+### 4. Rate Limiting
+- Implement rate limiting
+- Prevent abuse
+- Use exponential backoff
+
+---
+
+## User Warnings
+
+1. You are responsible for your data and credentials
+2. Ensure compliance with applicable laws
+3. Monitor automated operations
+
+---
+
+## Incident Response
+
+### If You Discover a Security Issue
+
+**DO NOT:**
+- Open a public GitHub issue
+- Discuss in public forums
+
+**DO:**
+1. Email: security@stijnman.com
+2. Include details and impact
+3. Wait for acknowledgment
+
+---
+
+## Contact
+
+**Security Issues**: security@stijnman.com  
+**Maintainer**: [Stijnman](https://github.com/Stijnman)
+
+---
+
+*Last updated: September 11, 2026*
